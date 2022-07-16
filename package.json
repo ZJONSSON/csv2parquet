@@ -1,0 +1,22 @@
+{
+  "name": "csv2parquet",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "csv2parquet": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ZJONSSON/csv2parquet"
+  },
+  "author": "https://github.com/ZJONSSON",
+  "license": "MIT",
+  "dependencies": {
+    "duckdb": "^0.4.0",
+    "minimist": "^1.2.6"
+  }
+}
